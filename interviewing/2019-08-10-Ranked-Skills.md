@@ -72,5 +72,8 @@ as accurately as possible.  I don't want to waste anyone's time, including my
 own, so accuracy is paramount.
 
 
+====
 
-
+Title: Ranked Skills
+Date: 2019-08-10
+Tags: interviewing

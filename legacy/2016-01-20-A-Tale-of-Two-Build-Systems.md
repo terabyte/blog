@@ -118,3 +118,6 @@ questions:
 * How independent do I want my teams to be?
 * Which is worse, being blocked, or being broken?
 * Which is more important - stability and reproducibility, or simplicity?
+
+====
+

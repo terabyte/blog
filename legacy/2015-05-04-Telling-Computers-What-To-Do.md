@@ -97,3 +97,6 @@ time in these endeavours, because the time you spend today writing these tools
 or learning how these tools work, instead of "jiggling it until it works", is
 paid back to your and your employer tenfold, or even a hundred fold, and those
 are dividends worth having.
+
+====
+

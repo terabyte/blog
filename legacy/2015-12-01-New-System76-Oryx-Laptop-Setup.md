@@ -52,3 +52,6 @@ To remap in X11, do the following.
 setxkbmap -layout us -option ctrl:nocaps
 ```
 You can insert this into your .xinitrc file, your ratpoisonrc, or however you prefer to run crap automatically in X.  For USB keyboards, after unplugging and replugging, you will have to rerun the command.  On some machines, I actually have that set to run every minute in a cron job to make sure I never EVER accidentally get capslock behavior.
+
+====
+

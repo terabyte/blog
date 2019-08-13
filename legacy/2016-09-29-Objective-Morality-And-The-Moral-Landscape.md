@@ -198,3 +198,7 @@ states of flourishing are simply preferable to others.
 * Objections? Link to Harris' blog
 * implications of moral landscape - multiple equivalent spots possible
 * Single happiest person in the universe versus billions of slightly-happy-people
+
+
+====
+
