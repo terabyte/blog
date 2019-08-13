@@ -1,5 +1,5 @@
-# A Tale of Two Build Systems" -->
-## January 20, 2016" -->
+# A Tale of Two Build Systems
+## January 20, 2016
 
 Company culture is a tricky thing.  Everyone has an opinion about it, and
 companies spend millions, sometimes billions of dollars trying to reinforce
@@ -121,3 +121,6 @@ questions:
 
 ====
 
+Title: A Tale of Two Build Systems
+Date: 2016-01-20
+Tags: qbt, build systems, dependency management, amazon, google, culture

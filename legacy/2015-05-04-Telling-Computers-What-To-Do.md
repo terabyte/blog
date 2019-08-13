@@ -100,3 +100,6 @@ are dividends worth having.
 
 ====
 
+Title: Telling Computers What To Do
+Date: 2015-05-04
+Tags: programming, philosophy

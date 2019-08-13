@@ -1,55 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
-
-	<title>Carl Myers' Blog - <!--#echo var = "posttitle" --></title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="/bootstrap/css/theme.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines!
-    <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
-    <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
-    -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body role="document">
-
-	<!-- include the nav bar -->
-	<!--#set var = "page" value = "blog" -->
-	<!--#include file="/nav.html" -->
-
-    <div class="container theme-showcase" role="main">
-
-      <div>
-
-<h1><!--#echo var = "posttitle" --></h1>
-<h2><!--#echo var = "postdate" --></h2>
 # Objective Morality and The Moral Landscape
 ## September 29th, 2016
 
 Secular morality is a subject I frequently find myself discussing online.  Surprising numbers of armchair theorists, whether religious or not, make assertions I'm not sure they truly understand or could justify.  Here are just a few:
-* You can't get an 'ought' from an 'is'</li>
-* Without some sort of creator or god, there can be no objective morality</li>
-* If there was no objective morality, &lt;insert bad thing here&gt;, therefore, god exists</li>
+* You can't get an 'ought' from an 'is'
+* Without some sort of creator or god, there can be no objective morality
+* If there was no objective morality, &lt;insert bad thing here&gt;, therefore, god exists
 
 My goal is always to hold as many true beliefs as possible, and as few false
 ones.  For this reason, I try to make as few assumptions as possible.  I take
@@ -76,7 +31,7 @@ write here is an accurate reflection of Harris' arguments, and that he would
 agree with this, but these views are based on **my** understanding of what
 he and others have argued, and so they are my responsibility alone to defend.
 
-## <h1>The Science of Morality</h1>
+## The Science of Morality
 
 The science of morality can be built upon just two simple axioms.  Those axioms
 are (1) some people have better lives than others, and (2) these differences
@@ -202,3 +157,6 @@ states of flourishing are simply preferable to others.
 
 ====
 
+Title: Objective Morality and The Moral Landscape
+Date: 2016-09-29
+Tags: epistemology, morality, philosophy

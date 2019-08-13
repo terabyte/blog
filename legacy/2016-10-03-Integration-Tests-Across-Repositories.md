@@ -130,3 +130,6 @@ resources to focus on feature development and other tasks.
 
 ====
 
+Title: Integration Tests Across Repositories
+Date: 2016-10-03
+Tags: build systems, qbt, tools, tests

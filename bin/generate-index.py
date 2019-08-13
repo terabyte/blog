@@ -62,7 +62,7 @@ for e in os.walk(cur_dir):
                     break
                 if line.count(':') == 0:
                     continue
-                key, content = line.split(':', 2)
+                key, content = line.split(':', 1)
                 if key == 'Tags':
                     metadata[key] = [t.strip() for t in content.split(',')]
                 elif key in known_md:
@@ -73,14 +73,17 @@ for e in os.walk(cur_dir):
                 metadata["timestamp"] = ts
         blogs.append(metadata)
 
+
 def tags_to_s(tags):
     if not tags:
         tags = ['untagged']
     return "".join(["'", "', '".join(tags), "'"])
 
+
 # https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists
 def flatten_list(l):
     return [item for sublist in l for item in sublist]
+
 
 with open(os.path.join(cur_dir, index_file), 'w') as fd:
     # first write out title
@@ -113,5 +116,3 @@ with open(os.path.join(cur_dir, index_file), 'w') as fd:
             if t in b.get("Tags", ['untagged']):
                 fd.write("| {} | {} | {} |\n".format(b.get("Title", "Unknown"), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
         fd.write("\n\n")
-
-

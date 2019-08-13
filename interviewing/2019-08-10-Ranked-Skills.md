@@ -76,4 +76,4 @@ own, so accuracy is paramount.
 
 Title: Ranked Skills
 Date: 2019-08-10
-Tags: interviewing
+Tags: interviewing, programming

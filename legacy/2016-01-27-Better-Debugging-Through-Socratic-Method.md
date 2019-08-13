@@ -130,3 +130,7 @@ Occam's Razor to [Shave the Yak](http://en.wiktionary.org/wiki/yak shaving).
 
 ====
 
+Title: Better Debugging Through the Socratic Method
+Date: 2016-01-27
+Tags: epistemology, debugging
+

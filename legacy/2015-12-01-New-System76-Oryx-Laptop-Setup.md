@@ -55,3 +55,6 @@ You can insert this into your .xinitrc file, your ratpoisonrc, or however you pr
 
 ====
 
+Title: New System76 Oryx Laptop Setup
+Date: 2015-12-01
+Tags: linux, laptop, productivity
