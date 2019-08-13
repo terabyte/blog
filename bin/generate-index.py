@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 
-# deps: jinja2?
-
 # I wrote this on an airplane in 25 minutes, don't judge me =)
+#
+# TODO: jinja2 templates?
+# TODO: tag names are links to the index for that tag?
+
 import os
-import pprint
 import datetime
 from dateutil.parser import parse as dateutilparse
 
 cur_dir = os.getcwd()
 
-index_file = 'INDEX.md'
+index_file = 'README.md'
+readme_src_file = 'README_src.md'
 end_sigil = '===='
 dir_ignore_list = [
     '.git',
@@ -18,7 +20,7 @@ dir_ignore_list = [
 
 file_ignore_list = [
     index_file,
-    'README.md',
+    readme_src_file,
     'generate-index.py',
 ]
 
@@ -81,12 +83,22 @@ def flatten_list(l):
     return [item for sublist in l for item in sublist]
 
 with open(os.path.join(cur_dir, index_file), 'w') as fd:
+    # first write out title
     fd.write("# Carl Myers' Blog\n")
     fd.write("## Index generated on {}\n".format(datetime.datetime.now()))
     fd.write("\n")
+
+    # next write out the readme src file
+    with open(os.path.join(cur_dir, readme_src_file), 'r') as sfd:
+        for line in sfd.readlines():
+            fd.write(line)
+
     fd.write("\n")
 
-    fd.write("# All Blog Posts\n")
+    fd.write("# Post Index\n")
+    fd.write("\n")
+
+    fd.write("## All Blog Posts\n")
     fd.write("| Date | Title | Tags |\n")
     fd.write("| ---- | ----- | ---- |\n")
     for b in reversed(sorted(blogs, key=lambda x: x["timestamp"])):
@@ -94,15 +106,12 @@ with open(os.path.join(cur_dir, index_file), 'w') as fd:
 
     fd.write("\n\n")
     for t in sorted({*flatten_list([x.get("Tags", ['untagged']) for x in blogs])}):
-        fd.write("# Posts Tagged '{}'\n\n".format(t))
+        fd.write("## Posts Tagged '{}'\n\n".format(t))
         fd.write("| Date | Title | Tags |\n")
         fd.write("| ---- | ----- | ---- |\n")
         for b in reversed(sorted(blogs, key=lambda x: x["timestamp"])):
             if t in b.get("Tags", ['untagged']):
                 fd.write("| {} | {} | {} |\n".format(b.get("Title", "Unknown"), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
         fd.write("\n\n")
-
-
-
 
 
