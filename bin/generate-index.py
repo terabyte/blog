@@ -80,6 +80,10 @@ def tags_to_s(tags):
     return "".join(["'", "', '".join(tags), "'"])
 
 
+def bloglink(b):
+    return "[{}]({})".format(b["Title"], b["relpath"])
+
+
 # https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-list-of-lists
 def flatten_list(l):
     return [item for sublist in l for item in sublist]
@@ -105,7 +109,7 @@ with open(os.path.join(cur_dir, index_file), 'w') as fd:
     fd.write("| Date | Title | Tags |\n")
     fd.write("| ---- | ----- | ---- |\n")
     for b in reversed(sorted(blogs, key=lambda x: x["timestamp"])):
-        fd.write("| {} | {} | {} |\n".format(b.get("Title", "Unknown"), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
+        fd.write("| {} | {} | {} |\n".format(bloglink(b), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
 
     fd.write("\n\n")
     for t in sorted({*flatten_list([x.get("Tags", ['untagged']) for x in blogs])}):
@@ -114,5 +118,5 @@ with open(os.path.join(cur_dir, index_file), 'w') as fd:
         fd.write("| ---- | ----- | ---- |\n")
         for b in reversed(sorted(blogs, key=lambda x: x["timestamp"])):
             if t in b.get("Tags", ['untagged']):
-                fd.write("| {} | {} | {} |\n".format(b.get("Title", "Unknown"), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
+                fd.write("| {} | {} | {} |\n".format(bloglink(b), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
         fd.write("\n\n")

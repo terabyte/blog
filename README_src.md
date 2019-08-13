@@ -2,8 +2,8 @@
 
 This is where I blog about things like telling computers what to do, how to tell computers what to do, and how to tell people how to tell computers what to do.
 
-My website is [https://cmyers.org](https://cmyers.org).
-My linked-in is [https://www.linkedin.com/in/carlmyers](https://www.linkedin.com/in/carlmyers).
+* My website is [https://cmyers.org](https://cmyers.org).
+* My linked-in is [https://www.linkedin.com/in/carlmyers](https://www.linkedin.com/in/carlmyers).
 
 ## Why Blog on Github?
 
