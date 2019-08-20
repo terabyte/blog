@@ -30,7 +30,7 @@ of ten in Python.  Great, now immediately follow up with "What would you teach
 someone who is an eight, in order to make them a nine?".  This is not a trap
 per say, but it does force the candidate to say things which give you a very
 good idea what **they** meant by nine out of ten.  If they answer "recursion",
-you know their nine means bumpkis.  If they answer "how function decorators
+you know their nine means bupkis.  If they answer "how function decorators
 work", you know that this candidate is familiar with function decorators and
 considers it a very advanced language feature.  Since I would not currently
 rate myself a nine at Python, if they talked about things which I am not myself
@@ -52,19 +52,19 @@ arbitrary number into a complex vector in skill-space.  That said, I also
 propose a standard ranking for what numbers mean which is moderately technology
 agnostic and can be used to communicate skills in a "best effort" fashion,
 knowing that not every interviewer can or will use the trick I've outlined
-above.  Additionally, a standard metric like this benefits for non-interactive
-cases such as reviewing a resume.
+above.  Additionally, a standard metric like this yields benefits for
+non-interactive cases such as reviewing a resume.
 
 When I rate myself on a ten point scale, I use this guide to do so:
 
-* 10: I could have a protracted discussion with the inventors of this technology including deep discussions about implementation details without prior preparation or embarrassment. I honestly believe I have little or nothing more to learn about this technology, I would probably never claim this rating.
-* 9: I could follow a deep technical discussion about most implementation details discussed on the developer list for this technology
-* 8: I am very familiar with all user-facing aspects of this technology as well as some implemnetation details necessary for mastery
-* 7: I am able to use this technology as a competent poweruser with little need to seek references
-* 6: I am a competent poweruser of this technology, though I occasionally seek references or examples
-* 5: I have a firm understanding of this technology but often seek examples or references to call upon for my work
-* 3: I am a user of this technology, but not a power user
-* 1: I have a passing familiarity with this technology, having used it a handful of times or interacted with it superficially, listing it primarily because I am interested in learning more
+* 10: I could have a protracted discussion with the inventors of this technology including deep discussions about implementation details without prior preparation or embarrassment. I honestly believe I have little or nothing more to learn about this technology. *I, personally, am unlikely ever to claim this rating.*
+* 9: I could follow a deep technical discussion among core developers of this technology regarding most implementation details.
+* 8: I am very familiar with all user-facing aspects of this technology, as well as some implementation details necessary for mastery.
+* 7: I am able to use this technology as a competent power user with little need to seek references.
+* 6: I am a competent power user of this technology, though I occasionally seek references or examples.
+* 5: I have a firm understanding of this technology but often seek examples or references.
+* 3: I am a user of this technology, but not a power user.
+* 1: I have a passing familiarity with this technology, having used it a handful of times or interacted with it superficially.  I am listing it primarily because I am interested in learning more.
 * 0: I refuse to use this technology or acknowledge any ability in it whatsoever.  Think PHP.
 
 I personally think of my resume as a method for communicating my skills and fit
