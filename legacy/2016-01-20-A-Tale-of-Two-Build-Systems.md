@@ -30,7 +30,7 @@ you completely buy into it yourself.  More importantly, that development
 ecosystem has complex, expressive, powerful, and strictly enforced dependency
 management.  Your software builds on fixed versions.  This means that if Team A
 makes a change, and Team B depends upon Team A's software project, and that
-change would break Team A, the build system tells them so, and prevents them
+change would break Team B, the build system tells team B so, and prevents team B
 from breaking.  Maybe the impetus falls on Team B to "eventually upgrade to the
 newest code and fix the break", or maybe Team A is responsible for driving the
 deprecation of old versions of their software within the company.  But neither
