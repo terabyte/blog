@@ -1,5 +1,5 @@
 # Carl Myers' Blog
-## Index generated on 2022-01-16 13:07:52.697501
+## Index generated on 2022-01-16 13:09:41.956862
 
 ## About Carl Myers
 
@@ -22,6 +22,7 @@ but it seems like overkill for now.
 ## All Blog Posts
 | Date | Title | Tags |
 | ---- | ----- | ---- |
+| [Ownership](swe/2021-07-05-Ownership.md) | 2021-07-05 | 'ownership', 'programming', 'software engineering', 'management' |
 | [Domain Versioning](misc/2019-08-11-Domain-Versioning.md) | 2019-08-11 | 'build systems', 'domain versioning', 'programming', 'tools', 'dependency management', 'maven' |
 | [Ranked Skills](interviewing/2019-08-10-Ranked-Skills.md) | 2019-08-10 | 'interviewing', 'programming' |
 | [Integration Tests Across Repositories](legacy/2016-10-03-Integration-Tests-Across-Repositories.md) | 2016-10-03 | 'build systems', 'qbt', 'tools', 'tests' |
@@ -153,6 +154,13 @@ but it seems like overkill for now.
 | [New System76 Oryx Laptop Setup](legacy/2015-12-01-New-System76-Oryx-Laptop-Setup.md) | 2015-12-01 | 'linux', 'laptop', 'productivity' |
 
 
+## Posts Tagged 'management'
+
+| Date | Title | Tags |
+| ---- | ----- | ---- |
+| [Ownership](swe/2021-07-05-Ownership.md) | 2021-07-05 | 'ownership', 'programming', 'software engineering', 'management' |
+
+
 ## Posts Tagged 'maven'
 
 | Date | Title | Tags |
@@ -166,6 +174,13 @@ but it seems like overkill for now.
 | Date | Title | Tags |
 | ---- | ----- | ---- |
 | [Objective Morality and The Moral Landscape](legacy/2016-09-29-Objective-Morality-And-The-Moral-Landscape.md) | 2016-09-29 | 'epistemology', 'morality', 'philosophy' |
+
+
+## Posts Tagged 'ownership'
+
+| Date | Title | Tags |
+| ---- | ----- | ---- |
+| [Ownership](swe/2021-07-05-Ownership.md) | 2021-07-05 | 'ownership', 'programming', 'software engineering', 'management' |
 
 
 ## Posts Tagged 'philosophy'
@@ -187,6 +202,7 @@ but it seems like overkill for now.
 
 | Date | Title | Tags |
 | ---- | ----- | ---- |
+| [Ownership](swe/2021-07-05-Ownership.md) | 2021-07-05 | 'ownership', 'programming', 'software engineering', 'management' |
 | [Domain Versioning](misc/2019-08-11-Domain-Versioning.md) | 2019-08-11 | 'build systems', 'domain versioning', 'programming', 'tools', 'dependency management', 'maven' |
 | [Ranked Skills](interviewing/2019-08-10-Ranked-Skills.md) | 2019-08-10 | 'interviewing', 'programming' |
 | [Telling Computers What To Do](legacy/2015-05-04-Telling-Computers-What-To-Do.md) | 2015-05-04 | 'programming', 'philosophy' |
@@ -201,6 +217,13 @@ but it seems like overkill for now.
 | [Public Service Announcement: Multi-Step Releases Considered Harmful](legacy/2016-06-03-Public-Service-Announcement-Multi-Step-Releases-Considered-Harmful.md) | 2016-05-03 | 'build systems', 'git', 'qbt', 'tools' |
 | [Buildsystem Rundown](legacy/2016-01-26-Buildsystem-Rundown.md) | 2016-01-26 | 'build systems', 'qbt', 'maven', 'gradle', 'bazel.io', 'tools' |
 | [A Tale of Two Build Systems](legacy/2016-01-20-A-Tale-of-Two-Build-Systems.md) | 2016-01-20 | 'qbt', 'build systems', 'dependency management', 'amazon', 'google', 'culture' |
+
+
+## Posts Tagged 'software engineering'
+
+| Date | Title | Tags |
+| ---- | ----- | ---- |
+| [Ownership](swe/2021-07-05-Ownership.md) | 2021-07-05 | 'ownership', 'programming', 'software engineering', 'management' |
 
 
 ## Posts Tagged 'tests'

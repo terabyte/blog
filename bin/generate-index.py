@@ -48,6 +48,11 @@ for e in os.walk(cur_dir):
         for skip in file_ignore_list:
             if f.count(skip) > 0:
                 found_skip = True
+
+        # only process MD files
+        if not f.endswith('.md'):
+            found_skip = True
+
         if found_skip:
             continue
 
@@ -111,6 +116,7 @@ with open(os.path.join(cur_dir, index_file), 'w') as fd:
     fd.write("| Date | Title | Tags |\n")
     fd.write("| ---- | ----- | ---- |\n")
     for b in reversed(sorted(blogs, key=lambda x: x["timestamp"])):
+        print("processing: " + str(b))
         fd.write("| {} | {} | {} |\n".format(bloglink(b), b.get("Date", "Unknown"), tags_to_s(b.get("Tags"))))
 
     fd.write("\n\n")
