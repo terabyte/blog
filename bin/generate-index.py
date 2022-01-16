@@ -71,7 +71,9 @@ for e in os.walk(cur_dir):
                 ts = dateutilparse(metadata["Date"]).timestamp()
                 print("Parsed Date: {}".format(ts))
                 metadata["timestamp"] = ts
-        blogs.append(metadata)
+
+        if "Title" in metadata:
+            blogs.append(metadata)
 
 
 def tags_to_s(tags):
